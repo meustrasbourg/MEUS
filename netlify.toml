@@ -5,3 +5,10 @@
 [build]
   command = "npm run build"
   publish = "build"
+
+[[redirects]]
+  from = "/AlSupNet"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLScu-8wzYZAPhWeVQd9nzY03LV_gEm0XsDabctgHhb4biicbDw/viewform"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
