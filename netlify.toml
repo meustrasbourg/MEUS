@@ -5,3 +5,27 @@
 [build]
   command = "npm run build"
   publish = "build"
+
+[[redirects]]
+  from = "/home"
+  to = "/"
+  
+[[redirects]]
+  from = "/AlSupNet"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLScu-8wzYZAPhWeVQd9nzY03LV_gEm0XsDabctgHhb4biicbDw/viewform"
+  
+[[redirects]]
+  from = "/alumninetwork"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLScu-8wzYZAPhWeVQd9nzY03LV_gEm0XsDabctgHhb4biicbDw/viewform"
+  
+[[redirects]]
+  from = "/supportersnetwork"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLScu-8wzYZAPhWeVQd9nzY03LV_gEm0XsDabctgHhb4biicbDw/viewform"
+
+[[redirects]]
+  from = "/2019conferenceguide"
+  to = "https://drive.google.com/file/u/1/d/1XT_1xwSFzwa4lSAahUQ50zGeJRHn_GXM/view?usp=sharing"
+  
+[[redirects]]
+  from = "/betafrance"
+  to = "https://docs.google.com/forms/d/e/1FAIpQLSdcaWPkicipcyyhB5qhNrTmxxLymwTk7GmIti9sIuFZs9R1sA/viewform?usp=sf_link"
