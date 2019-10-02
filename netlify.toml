@@ -5,13 +5,6 @@
 [build]
   command = "npm run build"
   publish = "build"
-
-[[redirects]]
-  from = "/home"
-  to = "/"
-  status = 301
-  force = false
-  query = {path = ":path"}
   
 [[redirects]]
   from = "/AlSupNet"
