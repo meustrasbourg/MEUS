@@ -2,7 +2,7 @@
 
 .AccordionWidget {
   background-color: #ededed;
-  color: $primary;
+  color: #2e3d91;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -12,7 +12,7 @@
   transition: 0.4s;
 }
 .active, .AccordionWidget:hover {
-  background-color: $secondary;
+  background-color: #121736;
 }
 
 .panel {
