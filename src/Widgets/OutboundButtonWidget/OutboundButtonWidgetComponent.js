@@ -17,7 +17,7 @@ const OutboundButtonWidgetComponent = Scrivito.connect(({ widget }) => {
   classNames.push(widget.get("style") || "btn-primary");
 
   return (
-    <Scrivito.LinkTag to={target} className={classNames.join(" ")} onClick={(event) => captureOutboundLink(event)>
+    <Scrivito.LinkTag to={target} className={classNames.join(" ")} onClick={(event) => captureOutboundLink(event)}>
       {text}
       <i className="fa fa-angle-right fa-4" aria-hidden="true" />
     </Scrivito.LinkTag>
