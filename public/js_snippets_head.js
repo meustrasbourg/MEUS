@@ -3,3 +3,9 @@
 // Don't forget to whitelist the URLs in the CSP at public/_headersCsp.json.
 
 // Google Analytics and Intercom are already taken care of by the app, so there's no need to add them here.
+var captureOutboundLink = function(url) {
+   ga('send', 'event', 'outbound', 'click', url, {
+     'transport': 'beacon',
+     'hitCallback': function(){document.location = url;}
+   });
+}
