@@ -1,13 +1,13 @@
-import * as React from "react-share";
+import * as React from "MEUS/react-share/src";
 import * as Scrivito from "scrivito";
 import {
-  FacebookShareButton,
-  TwitterShareButton,
-  LinkedinShareButton,
-  FacebookIcon,
-  TwitterIcon,
-  LinkedinIcon
-  } from 'react-share';
+  FacebookShareButton.ts,
+  TwitterShareButton.ts,
+  LinkedinShareButton.ts,
+  FacebookIcon.ts,
+  TwitterIcon.ts,
+  LinkedinIcon.ts
+  } from 'MEUS/react-share/src';
 
 Scrivito.provideComponent("SocialFeedWidget", ({ widget }) => {
   const currentPage = Scrivito.currentPage();
@@ -19,20 +19,20 @@ Scrivito.provideComponent("SocialFeedWidget", ({ widget }) => {
     switch (shareButton) {
       case "facebook":
         return (
-          <FacebookShareButton key={'fb'} className={'btn'} url={currentPageUrl}>
-            <FacebookIcon round size={32} />
+          <FacebookShareButton.ts key={'fb'} className={'btn'} url={currentPageUrl}>
+            <FacebookIcon.ts round size={32} />
           </FacebookShareButton>
         );
       case "twitter":
         return (
-          <TwitterShareButton key={'tw'} className={'btn'} url={currentPageUrl}>
-            <TwitterIcon round size={32} />
+          <TwitterShareButton.ts key={'tw'} className={'btn'} url={currentPageUrl}>
+            <TwitterIcon.ts round size={32} />
           </TwitterShareButton>
         );
       case "linkedin":
         return (
-          <LinkedinShareButton key={'li'} className={'btn'} url={currentPageUrl}>
-            <LinkedinIcon round size={32} />
+          <LinkedinShareButton.ts key={'li'} className={'btn'} url={currentPageUrl}>
+            <LinkedinIcon.ts round size={32} />
           </LinkedinShareButton>
         );
     }
