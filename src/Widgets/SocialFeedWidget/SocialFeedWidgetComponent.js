@@ -21,19 +21,19 @@ Scrivito.provideComponent("SocialFeedWidget", ({ widget }) => {
         return (
           <FacebookShareButton.ts key={'fb'} className={'btn'} url={currentPageUrl}>
             <FacebookIcon.ts round size={32} />
-          </FacebookShareButton>
+          </FacebookShareButton.ts>
         );
       case "twitter":
         return (
           <TwitterShareButton.ts key={'tw'} className={'btn'} url={currentPageUrl}>
             <TwitterIcon.ts round size={32} />
-          </TwitterShareButton>
+          </TwitterShareButton.ts>
         );
       case "linkedin":
         return (
           <LinkedinShareButton.ts key={'li'} className={'btn'} url={currentPageUrl}>
             <LinkedinIcon.ts round size={32} />
-          </LinkedinShareButton>
+          </LinkedinShareButton.ts>
         );
     }
   });
