@@ -1,4 +1,4 @@
-import * as React from "src/assets/react-share";
+import * as React from "react-share";
 import * as Scrivito from "scrivito";
 import {
   FacebookShareButton,
@@ -7,7 +7,7 @@ import {
   FacebookIcon,
   TwitterIcon,
   LinkedinIcon
-  } from 'src/assets/react-share';
+  } from 'react-share';
 
 Scrivito.provideComponent("SocialFeedWidget", ({ widget }) => {
   const currentPage = Scrivito.currentPage();
