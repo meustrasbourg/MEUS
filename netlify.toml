@@ -2,6 +2,8 @@
 # “command” is your build command.
 # “publish” is the directory to publish (relative to root of your repo).
 
+# prerenders as described in https://www.scrivito.com/setting-up-prerendering-2dfd4561b3158262
+
 [build]
   command = "npm run prerender"
   publish = "buildPrerendered"
